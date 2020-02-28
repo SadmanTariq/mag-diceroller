@@ -1,1 +1,1 @@
-worker: python mag-diceroller.py
+worker: python mag_diceroller.py
