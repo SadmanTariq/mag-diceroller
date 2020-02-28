@@ -1,5 +1,6 @@
 import discord
 from discord.ext import commands
+from os import environ
 from random import randint
 import asyncio
 
