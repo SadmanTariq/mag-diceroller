@@ -1,4 +1,4 @@
-import discord
+# import discord
 from discord.ext import commands
 from os import environ
 from random import randint
@@ -59,9 +59,9 @@ async def roll(ctx, num: int):
 
 @bot.listen()
 async def on_ready():
-    status_message = "Mistborn: Adventure Game (>roll)"
-    await bot.change_presence(activity=discord.Game(name=status_message))
-    print("Ready.")
+    # status_message = "Mistborn: Adventure Game (>roll)"
+    # await bot.change_presence(activity=discord.Game(name=status_message))
+    print("mag_diceroller.py running...")
 
 
 bot.run(token)

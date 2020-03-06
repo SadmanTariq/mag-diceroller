@@ -130,3 +130,6 @@ launch.json
 # Discord app token
 token
 tester_token
+
+# Project specific
+run.bat
